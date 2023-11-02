@@ -1,0 +1,306 @@
+/*----------------------------------rules for mobile---------------*/
+@media(max-width:300px){
+    /*for top area*/
+ .div1{
+    background-color: rgb(72, 101, 156);
+    overflow: hidden;
+}
+table{
+    float: right;
+    color: white;
+    margin-right: 150px;
+}
+.span1{
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    position: absolute;
+    left: 150px;
+    top: 36px;
+    
+}
+body{
+    margin: 0;
+    background-color:  rgb(238, 242, 250) ;
+}
+button{
+    background-color:  rgb(72, 101, 156);
+    color: white;
+    box-shadow: 1px 1px 1px rgb(219, 209, 209) inset;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button:hover{
+    background-color:  rgb(111, 153, 231)
+}
+/*for signup form*/
+.span2{
+    position: absolute;
+    max-height: 800px;
+    max-width: 700px;
+    right: 150px;
+    top: 75px;    
+}
+.input{
+    width: 440px;
+    height: 30px;
+}
+.FLname {
+    height: 30px;
+    width: 214px;
+}
+input::placeholder{
+    font-size: 17px;
+    color: rgb(143, 142, 142);
+}
+.para1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+    position: absolute;
+    top: 65px;
+    color: rgb(102, 101, 101);
+}
+.label{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+}
+a{
+    text-decoration: none;
+    color:  rgb(72, 101, 156);
+}
+.submit{
+    height: 40px;
+    width: 190px;
+    color: white;
+    background-color: rgb(32, 153, 32);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.submit:hover{
+    background-color: rgb(20, 99, 20);
+}
+
+/*for right paragraphs*/
+.span3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 25px;
+    position: absolute;
+    top: 170px;
+    left: 150px;
+}
+
+/*for image*/
+
+.span4{
+    position: absolute;
+    height: 100px;
+    width: 200px;
+    top: 260px;
+    left: 120px;
+}
+
+}
+/*----------------------------------rules for tabs---------------*/
+@media(min-width:600px) and (max-width:768px){
+    /*for top area*/
+     .div1{
+        background-color: rgb(72, 101, 156);
+        overflow: hidden;
+    }
+    table{
+        float: right;
+        color: white;
+        margin-right: 150px;
+    }
+    .span1{
+        font-size: 45px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white;
+        position: absolute;
+        left: 150px;
+        top: 36px;
+        
+    }
+    body{
+        margin: 0;
+        background-color:  rgb(238, 242, 250) ;
+    }
+    button{
+        background-color:  rgb(72, 101, 156);
+        color: white;
+        box-shadow: 1px 1px 1px rgb(219, 209, 209) inset;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    button:hover{
+        background-color:  rgb(111, 153, 231)
+    }
+    /*for signup form*/
+    .span2{
+        position: absolute;
+        max-height: 800px;
+        max-width: 700px;
+        right: 150px;
+        top: 75px;    
+    }
+    .input{
+        width: 440px;
+        height: 30px;
+    }
+    .FLname {
+        height: 30px;
+        width: 214px;
+    }
+    input::placeholder{
+        font-size: 17px;
+        color: rgb(143, 142, 142);
+    }
+    .para1{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: medium;
+        position: absolute;
+        top: 65px;
+        color: rgb(102, 101, 101);
+    }
+    .label{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: x-large;
+    }
+    a{
+        text-decoration: none;
+        color:  rgb(72, 101, 156);
+    }
+    .submit{
+        height: 40px;
+        width: 190px;
+        color: white;
+        background-color: rgb(32, 153, 32);
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 20px;
+        border-radius: 5px;
+    }
+    .submit:hover{
+        background-color: rgb(20, 99, 20);
+    }
+    
+    /*for right paragraphs*/
+    .span3{
+        font-family: Verdana, Geneva, Tahoma, sans-serif; 
+        font-size: 25px;
+        position: absolute;
+        top: 170px;
+        left: 150px;
+    }
+    
+    /*for image*/
+    
+    .span4{
+        position: absolute;
+        height: 100px;
+        width: 200px;
+        top: 260px;
+        left: 120px;
+    }
+    }
+    
+    /*----------------------------------rules for laptops---------------*/
+     @media(min-width:1200px){
+         /*for top area*/
+     .div1{
+        background-color: rgb(72, 101, 156);
+        overflow: hidden;
+    }
+    table{
+        float: right;
+        color: white;
+        margin-right: 150px;
+    }
+    .span1{
+        font-size: 45px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white;
+        position: absolute;
+        left: 150px;
+        top: 36px;
+        
+    }
+    body{
+        margin: 0;
+        background-color:  rgb(238, 242, 250) ;
+    }
+    button{
+        background-color:  rgb(72, 101, 156);
+        color: white;
+        box-shadow: 1px 1px 1px rgb(219, 209, 209) inset;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    button:hover{
+        background-color:  rgb(111, 153, 231)
+    }
+    /*for signup form*/
+    .span2{
+        position: absolute;
+        max-height: 800px;
+        max-width: 700px;
+        right: 150px;
+        top: 75px;    
+    }
+    .input{
+        width: 440px;
+        height: 30px;
+    }
+    .FLname {
+        height: 30px;
+        width: 214px;
+    }
+    input::placeholder{
+        font-size: 17px;
+        color: rgb(143, 142, 142);
+    }
+    .para1{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: medium;
+        position: absolute;
+        top: 65px;
+        color: rgb(102, 101, 101);
+    }
+    .label{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: x-large;
+    }
+    a{
+        text-decoration: none;
+        color:  rgb(72, 101, 156);
+    }
+    .submit{
+        height: 40px;
+        width: 190px;
+        color: white;
+        background-color: rgb(32, 153, 32);
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 20px;
+        border-radius: 5px;
+    }
+    .submit:hover{
+        background-color: rgb(20, 99, 20);
+    }
+    
+    /*for right paragraphs*/
+    .span3{
+        font-family: Verdana, Geneva, Tahoma, sans-serif; 
+        font-size: 25px;
+        position: absolute;
+        top: 170px;
+        left: 150px;
+    }
+    
+    /*for image*/
+    
+    .span4{
+        position: absolute;
+        height: 100px;
+        width: 200px;
+        top: 260px;
+        left: 120px;
+    }
+     }
+    
